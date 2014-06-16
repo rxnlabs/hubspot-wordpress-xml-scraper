@@ -1,0 +1,157 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "48684392c2db266c3a42199819edd5f6",
+    "packages": [
+        {
+            "name": "electrolinux/phpquery",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/electrolinux/phpquery.git",
+                "reference": "3bdceb900a7406b4de0523947fc29673ec9cb310"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/electrolinux/phpquery/zipball/3bdceb900a7406b4de0523947fc29673ec9cb310",
+                "reference": "3bdceb900a7406b4de0523947fc29673ec9cb310",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "phpQuery/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tobiasz Cudnik",
+                    "email": "tobiasz.cudnik@gmail.com",
+                    "homepage": "https://github.com/TobiaszCudnik",
+                    "role": "Developer"
+                },
+                {
+                    "name": "didier Belot",
+                    "role": "Packager"
+                }
+            ],
+            "description": "phpQuery is a server-side, chainable, CSS3 selector driven Document Object Model (DOM) API based on jQuery JavaScript Library",
+            "homepage": "http://code.google.com/p/phpquery/",
+            "time": "2013-10-12 07:09:33"
+        },
+        {
+            "name": "rdlowrey/alert",
+            "version": "v0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rdlowrey/alert.git",
+                "reference": "71e3331d21f90b9143ee91513560fa891e09f1ec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rdlowrey/alert/zipball/71e3331d21f90b9143ee91513560fa891e09f1ec",
+                "reference": "71e3331d21f90b9143ee91513560fa891e09f1ec",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Alert": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Lowrey",
+                    "email": "rdlowrey@gmail.com",
+                    "role": "Creator / Lead Developer"
+                }
+            ],
+            "description": "Event loops for event-driven/async PHP",
+            "homepage": "https://github.com/rdlowrey/alert",
+            "keywords": [
+                "async",
+                "events",
+                "libevent",
+                "non-blocking"
+            ],
+            "time": "2013-08-12 15:35:18"
+        },
+        {
+            "name": "rdlowrey/artax",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rdlowrey/Artax.git",
+                "reference": "c141c70ae6ca264e4c6fc5de0d2a0b12fa236a9a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rdlowrey/Artax/zipball/c141c70ae6ca264e4c6fc5de0d2a0b12fa236a9a",
+                "reference": "c141c70ae6ca264e4c6fc5de0d2a0b12fa236a9a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "rdlowrey/alert": "~0.1.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Lowrey",
+                    "email": "rdlowrey@gmail.com",
+                    "role": "Creator / Lead Developer"
+                }
+            ],
+            "description": "An object-oriented HTTP/1.1 client with no cURL dependency",
+            "homepage": "https://github.com/rdlowrey/Artax",
+            "keywords": [
+                "async",
+                "client",
+                "http",
+                "parallel",
+                "rest"
+            ],
+            "time": "2014-05-05 19:58:19"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "electrolinux/phpquery": 20,
+        "rdlowrey/artax": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

@@ -1,0 +1,7 @@
+{
+	"require":
+	{
+		"electrolinux/phpquery": "dev-master",
+		"rdlowrey/artax": "dev-master"
+	}
+}
